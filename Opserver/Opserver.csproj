@@ -225,6 +225,7 @@
       <DependentUpon>Styles.css</DependentUpon>
     </Content>
     <None Include="Config\PagerDutySettings.json.example" />
+    <Content Include="Config\WmiProviderSettings.json.example" />
     <None Include="Content\_Styles.HeadsUp.less">
       <DependentUpon>Styles.less</DependentUpon>
     </None>
