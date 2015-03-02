@@ -40,9 +40,20 @@ Even if you have correctly configured your monitors, you still may not see any d
 
 You can browse to /about to review which monitors have been enabled. 
 
+Jira Actions Configuration
+-----------
+You can use Jira to create issues using the links rendered in the exception details page. 
+
+In order to use Jira 
+
+* You have to enable Exception monitoring 
+* Add JiraSettings.json file under `/config` folder (JiraSettings.json.example file is included)
+* Enable REST api on Jira
+
+[Jira action screenshots](http://imgur.com/a/XtW0j)
 Open Source Projects in Use
 ---------
-[BookSleeve](https://code.google.com/p/booksleeve/) by Marc Gravell  
+[StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) by Marc Gravell  
 [Dapper](https://github.com/StackExchange/dapper-dot-net/) by Stack Exchange  
 [JSON.Net](http://james.newtonking.com/json) by James Newton-King     
 [MiniProfiler](http://miniprofiler.com/) by Stack Exchange  

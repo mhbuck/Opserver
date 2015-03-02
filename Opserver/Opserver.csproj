@@ -224,6 +224,7 @@
     <Content Include="Content\Styles.css.map">
       <DependentUpon>Styles.css</DependentUpon>
     </Content>
+    <Content Include="Config\JiraSettings.json.example" />
     <None Include="Config\PagerDutySettings.json.example" />
     <Content Include="Config\WmiProviderSettings.json.example" />
     <None Include="Content\_Styles.HeadsUp.less">
@@ -308,9 +309,10 @@
     <Content Include="Views\PagerDuty\PagerDuty.Incident.cshtml" />
     <Content Include="Views\PagerDuty\PagerDuty.EscFull.cshtml" />
     <Content Include="Views\PagerDuty\PagerDuty.OnCallRow.cshtml" />
-    <None Include="Views\SQL\Instance.Configuration.cshtml">
+    <Content Include="Views\Exceptions\Exceptions.Jira.cshtml" />
+    <Content Include="Views\SQL\Instance.Configuration.cshtml">
       <DependentUpon>Instance.cshtml</DependentUpon>
-    </None>
+    </Content>
     <Compile Include="Views\SQL\Ops.Top.Detail.Model.cs">
       <DependentUpon>Operations.Top.Detail.cshtml</DependentUpon>
     </Compile>
